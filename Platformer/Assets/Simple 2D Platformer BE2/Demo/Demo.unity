@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 122977349}
   - component: {fileID: 122977348}
   - component: {fileID: 122977347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 226055443}
   - component: {fileID: 226055442}
   - component: {fileID: 226055441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Middle Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 391258933}
   - component: {fileID: 391258932}
   - component: {fileID: 391258931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slope Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 448607632}
   - component: {fileID: 448607631}
   - component: {fileID: 448607630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 528345469}
   - component: {fileID: 528345468}
   - component: {fileID: 528345467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -874,7 +874,7 @@ GameObject:
   - component: {fileID: 663564633}
   - component: {fileID: 663564632}
   - component: {fileID: 663564631}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1005,7 +1005,7 @@ GameObject:
   - component: {fileID: 675750915}
   - component: {fileID: 675750914}
   - component: {fileID: 675750913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slope Under Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 708886112}
   - component: {fileID: 708886111}
   - component: {fileID: 708886110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1264,7 +1264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713301669}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1378,7 +1378,7 @@ GameObject:
   - component: {fileID: 810845969}
   - component: {fileID: 810845968}
   - component: {fileID: 810845967}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slope Under Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1592,7 +1592,7 @@ GameObject:
   - component: {fileID: 1040618398}
   - component: {fileID: 1040618397}
   - component: {fileID: 1040618396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1723,7 +1723,7 @@ GameObject:
   - component: {fileID: 1195320912}
   - component: {fileID: 1195320911}
   - component: {fileID: 1195320910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Slope Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 1202961912}
   - component: {fileID: 1202961911}
   - component: {fileID: 1202961910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2225,7 +2225,7 @@ GameObject:
   - component: {fileID: 1250517235}
   - component: {fileID: 1250517234}
   - component: {fileID: 1250517233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 1262555683}
   - component: {fileID: 1262555682}
   - component: {fileID: 1262555681}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2487,7 +2487,7 @@ GameObject:
   - component: {fileID: 1294735887}
   - component: {fileID: 1294735886}
   - component: {fileID: 1294735885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2700,7 +2700,7 @@ GameObject:
   - component: {fileID: 1434377153}
   - component: {fileID: 1434377152}
   - component: {fileID: 1434377151}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Single Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,7 +2831,7 @@ GameObject:
   - component: {fileID: 1463424650}
   - component: {fileID: 1463424649}
   - component: {fileID: 1463424648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Middle Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,7 +3222,7 @@ GameObject:
   - component: {fileID: 1737274647}
   - component: {fileID: 1737274646}
   - component: {fileID: 1737274645}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Single
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3353,7 +3353,7 @@ GameObject:
   - component: {fileID: 1741090609}
   - component: {fileID: 1741090608}
   - component: {fileID: 1741090607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Single Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3484,7 +3484,7 @@ GameObject:
   - component: {fileID: 1997266150}
   - component: {fileID: 1997266149}
   - component: {fileID: 1997266148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3655,7 +3655,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 2
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3757,5 +3757,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65b2a3dc11c589489b426d4b1c1e28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 4.5
-  S: 10
+  jumpPower: 14
+  S: 6
