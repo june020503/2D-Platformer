@@ -23,6 +23,10 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         UIPoint.text = (totalPoint + stagePoint).ToString();
+    }
+
+    private void Start()
+    {
         Hp.text = Health.ToString();
     }
 
@@ -65,14 +69,18 @@ public class GameManager : MonoBehaviour
         if (Health > 1)
         {
             Health--;
+            player.PlaySound("DAMAGED");
         }
 
         else
         {
+            Health = 0;
             player.onDie();
 
             RestartBtn.SetActive(true);
         }
+
+        Hp.text = Health.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

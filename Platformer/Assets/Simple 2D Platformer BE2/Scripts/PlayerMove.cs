@@ -8,8 +8,16 @@ public class PlayerMove : MonoBehaviour
     SpriteRenderer spriterenderer;
     Animator anim;
     CapsuleCollider2D capsulecollider;
+    AudioSource audioSource;
 
     public GameManager gamemanager;
+
+    public AudioClip audioJump;
+    public AudioClip audioAttack;
+    public AudioClip audioDamaged;
+    public AudioClip audioItem;
+    public AudioClip audioDie;
+    public AudioClip audioFinish;
     
     //public float maxSpeed;
     public float jumpPower;
@@ -22,6 +30,7 @@ public class PlayerMove : MonoBehaviour
         spriterenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         capsulecollider = GetComponent<CapsuleCollider2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update() //매 프레임마다 호출(키 입력에 용이)
@@ -59,6 +68,9 @@ public class PlayerMove : MonoBehaviour
 
             //애니메이션
             anim.SetBool("isJump", true);
+
+            //음향
+            PlaySound("JUMP");
         }
 
         
@@ -172,12 +184,16 @@ public class PlayerMove : MonoBehaviour
 
             //아이템 획득
             collision.gameObject.SetActive(false);
+
+            PlaySound("ITEM");
         }
 
         else if (collision.gameObject.tag == "Finish")
         {
             //스테이지 이동
             gamemanager.NextStage();
+
+            PlaySound("FINISH");
         }
     }
 
@@ -213,12 +229,14 @@ public class PlayerMove : MonoBehaviour
     {
         //적 공격
 
-
         rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         jumpCnt = 1;
 
         //점수
         gamemanager.stagePoint += 100;
+
+        //음향
+        PlaySound("ATTACK");
 
         //적 처치
         EnemyMove enemyMove = enemy.GetComponent<EnemyMove>();
@@ -234,10 +252,40 @@ public class PlayerMove : MonoBehaviour
         capsulecollider.enabled = false;
 
         rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+
+        PlaySound("DIE");
     }
 
     public void VelocityZero()
     {
         rigid.velocity = Vector2.zero;
+    }
+
+    public void PlaySound(string action)
+    {
+        //소리 재생
+        switch(action)
+        {
+            case "JUMP":
+                audioSource.clip = audioJump;
+                break;
+            case "ATTACK":
+                audioSource.clip = audioAttack;
+                break;
+            case "DAMAGED":
+                audioSource.clip = audioDamaged;
+                break;
+            case "ITEM":
+                audioSource.clip = audioItem;
+                break;
+            case "DIE":
+                audioSource.clip = audioDie;
+                break;
+            case "FINISH":
+                audioSource.clip = audioFinish;
+                break;
+         }
+
+        audioSource.Play();
     }
 }
