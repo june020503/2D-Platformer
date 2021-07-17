@@ -58,7 +58,7 @@ public class EnemyMove : MonoBehaviour
 
     void Turn()
     {
-        //낙하시 방향전환 함수
+        //낙하 방지를 위한 방향전환 함수
         nextMove *= -1;
         spriteRenderer.flipX = nextMove == 1;
 
